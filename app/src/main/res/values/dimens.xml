@@ -1,0 +1,20 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="imlog">25dp</dimen>
+    <dimen name="mrg">3dp</dimen>
+    <dimen name="margilinear">11dp</dimen>
+    <dimen name="margilineartop">5dp</dimen>
+    <dimen name="sizeptlinear">110dp</dimen>
+    <dimen name="margintxt">5dp</dimen>
+    <dimen name="sizeimg">34dp</dimen>
+    <dimen name="sizebutton">260dp</dimen>
+    <dimen name="margbutton">20dp</dimen>
+    <dimen name="sizelina">133dp</dimen>
+    <dimen name="dimkrak">420dp</dimen>
+    <dimen name="margemid">8dp</dimen>
+    <dimen name="margbuta">22dp</dimen>
+    <dimen name="topsub">370dp</dimen>
+    <dimen name="sizesavel">420dp</dimen>
+</resources>

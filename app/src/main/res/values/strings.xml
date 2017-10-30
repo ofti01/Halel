@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Halel</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="sign_in">Signin</string>
+    <string name="show_all_content">Suite</string>
+    <string name="success_login_msg">succes</string>
+    <string name="error_login_msg">Error</string>
+    <string name="login">login</string>
+    <string name="txti1">  Halal est une application qui permet de  localiser les endroids Halal auprés de votre position.\n</string>
+    <string name="txti2"> Halal vous donne l\'opportunité de partager avec les utilisateurs de notre application les informations de marché Halal.</string>
+    <string name="sinsi"><u>s\'inscrire</u></string>
+    <string name="coffee">coffee</string>
+    <string name="resto">resto</string>
+    <string name="viande">viande</string>
+    <string name="poulet">poulet</string>
+</resources>

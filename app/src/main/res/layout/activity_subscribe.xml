@@ -1,0 +1,228 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pressed_color">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginBottom="@dimen/margilinear"
+            android:layout_marginLeft="@dimen/margilinear"
+            android:layout_marginRight="@dimen/margilinear"
+            android:layout_marginTop="@dimen/margilinear"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/kro"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginBottom="13dp"
+                android:gravity="left|center_horizontal"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/imageButton2"
+                    android:layout_width="32dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:background="@mipmap/back" />
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="Précedent"
+                    android:textColor="@android:color/background_dark"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/kro1"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/topsub"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_below="@+id/kro"
+                android:layout_marginLeft="@dimen/margemid"
+                android:layout_marginRight="@dimen/margemid"
+                android:layout_marginTop="10dp"
+                android:gravity="left|center_horizontal"
+                android:orientation="vertical"
+                android:weightSum="1">
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="35dp"
+                    android:gravity="center"
+                    android:text="Inscrivez-vous"
+                    android:textColor="@android:color/holo_red_light"
+                    android:textSize="22dp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="52dp"
+                    android:layout_marginBottom="@dimen/margbuta"
+                    android:layout_weight="0.12"
+                    android:background="@drawable/custom_cadre"
+                    android:ems="10">
+
+                    <EditText
+                        android:id="@+id/editText"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+
+                        android:layout_below="@+id/textView7"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginRight="3dp"
+                        android:hint="Pseudo"
+                        android:inputType="textPersonName"
+                        android:textColor="@android:color/background_dark" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="52dp"
+                    android:layout_marginBottom="@dimen/margbuta"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="0.12"
+                    android:background="@drawable/custom_cadre"
+                    android:ems="10">
+
+                    <EditText
+                        android:id="@+id/editText2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@+id/textView10"
+
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginRight="3dp"
+                        android:hint="Mot de passe"
+                        android:inputType="textPersonName"
+                        android:textColor="@android:color/background_dark" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="52dp"
+                    android:layout_marginBottom="@dimen/margbuta"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="0.12"
+                    android:background="@drawable/custom_cadre"
+                    android:ems="10">
+
+                    <EditText
+                        android:id="@+id/editText3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_below="@+id/textView11"
+
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginRight="3dp"
+                        android:hint="Verifier votre mot de passe"
+                        android:inputType="textPassword"
+                        android:textColor="@android:color/background_dark" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="52dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="0.12"
+                    android:background="@drawable/custom_cadre"
+                    android:ems="10">
+
+                    <EditText
+                        android:id="@+id/editText4"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@+id/textView12"
+
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginRight="3dp"
+                        android:hint="adresse email"
+                        android:inputType="textEmailAddress"
+                        android:textColor="@android:color/background_dark" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="6dp"
+                    android:textColor="@android:color/holo_red_dark"
+                    android:textSize="10sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/kro2"
+                android:layout_width="match_parent"
+                android:layout_height="85dp"
+                android:layout_below="@+id/kro1"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <Button
+                    android:id="@+id/button5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="8dp"
+                    android:layout_weight="0.08"
+                    android:background="@drawable/btncolor"
+                    android:text="s'inscrire"
+                    android:textAllCaps="false"
+                    android:textColor="@android:color/black" />
+
+                <Button
+                    android:id="@+id/button6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_weight="0.08"
+                    android:background="@drawable/btncolor2"
+                    android:gravity="center"
+                    android:text="sortir"
+                    android:textAllCaps="false"
+                    android:textColor="@android:color/black" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+</RelativeLayout>

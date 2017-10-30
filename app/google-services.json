@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "112072198705",
+    "firebase_url": "https://mapp-145210.firebaseio.com",
+    "project_id": "mapp-145210",
+    "storage_bucket": "mapp-145210.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:112072198705:android:f28e5b51a5a2c61a",
+        "android_client_info": {
+          "package_name": "com.lotfi.halel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "112072198705-hflpdd06hk9qi1ct6ogu38cgjjjukh70.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDlWNfdbqJsWKhzRdduhA9HI42eDITRlog"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
